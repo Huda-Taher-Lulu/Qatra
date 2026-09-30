@@ -1,0 +1,30 @@
+.approvals-page .supervisor-page-head {
+  margin-bottom: 22px;
+}
+
+.approvals-page .supervisor-page-head small {
+  color: #a72535;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.approvals-embedded > .dashboard {
+  display: block;
+  min-height: 0;
+  background: transparent;
+}
+
+.approvals-embedded > .dashboard > .sidebar,
+.approvals-embedded .dash-header {
+  display: none;
+}
+
+.approvals-embedded > .dashboard > .dash-main {
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.approvals-embedded .kpis {
+  margin-top: 0;
+}
